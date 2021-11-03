@@ -7,6 +7,7 @@ cassi_users = query_on_our_data_base.where(client==cassi || client==bem_cassi ||
 /*
 
 to get the right value at cassi_users, please, follow the rules of ANNEXX II , with attention for each period.
+ANNEX II -> https://netorgft3902215-my.sharepoint.com/:w:/g/personal/pabloborges_iron_fit/EZH_2ocOzhBAvqF8miL7x2QBnKRjwAOz36LkabbTOx0GsA?e=1MIxT3 
 
 */
 
