@@ -9,10 +9,10 @@ cassi_users = query_on_our_data_base.where(client==cassi || client==bem_cassi ||
 cassi_spreadsheet = import_and_open(cassi_spreadsheet.xlsx)
 items = read_all_columns(cassi_spreadsheet) 
 
-listOfNotFound = []
+listOfNotFound = [];
 
-forEach (item in items){ 
-    if(item.name is not on cassi_users){
+forEach (item in items);{ 
+    if(item.name !== cassi_users){
        listOfNotFound.append_to_it(item)
     }
 } 
